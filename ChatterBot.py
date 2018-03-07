@@ -6,10 +6,18 @@ import time
 
 # Twitter API Keys
 import os
+"""
 consumer_key = os.getenv("twitter_consumer_key")
 consumer_secret = os.getenv("twitter_consumer_secret")
 access_token = os.getenv("twitter_access_token")
 access_token_secret = os.getenv("twitter_access_token_secret")
+"""
+
+consumer_key = "ThPe6egpT3OJCiRfx7w7lGyVH"
+consumer_secret = "EnGwBptSnjSKEjgIbOi3D4qtRvfjcgnCWm3pDGQscjs07qXbG2"
+access_token = "969396072215818240-ZVyRxct50k8giGAXzKoAVd4uThbuxSu"
+access_token_secret = "tgyVOelmg2LN0FdlbrW37rh55DvMtWzwxj7oQtYRkBy81"
+
 
 # Setup Tweepy API Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
